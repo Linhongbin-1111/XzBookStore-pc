@@ -1,0 +1,46 @@
+// 覆盖全局样式
+// 修改输入框的全局样式
+.el-form {
+  .el-form-item {
+    .el-form-item__content {
+      .el-select {
+        width: 210px;
+        // margin-right: -6px;
+      }
+
+      .el-input {
+        // width: 220px;
+        .el-input__inner {
+          width: 210px;
+          border-radius: 0;
+          height: 30px;
+        }
+      }
+
+      .el-date-editor {
+        width: 206.4px;
+      }
+      .el-date-editor {
+        height: 30px;
+        line-height: 30px;
+        border-radius: 0;
+
+        .el-input__icon {
+          line-height: 22px;
+        }
+
+        .el-range-separator {
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+
+
+.el-button {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  border-radius: 0;
+}

@@ -1,0 +1,16 @@
+.el-form .el-form-item .el-form-item__content .el-select {
+  width: 100%;
+}
+
+.el-form .el-form-item .el-form-item__content .el-input .el-input__inner {
+  border-radius: 0;
+  height: 30px;
+}
+
+.el-button {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  border-radius: 0;
+}
+/*# sourceMappingURL=global.css.map */
